@@ -6,7 +6,6 @@ vector<int> squaredArray(vector<int>& array){
     for (int num : array) {
         squared.push_back(num * num); // Calculate squares
     }
-
     std::sort(squared.begin(), squared.end()); // Sort squared values
 
     return squared;
